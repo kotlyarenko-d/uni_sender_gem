@@ -9,7 +9,7 @@ Gem::Specification.new do |gem|
   gem.homepage      = ""
 
   gem.add_dependency 'rest-client', '~> 1.6.7'
-  gem.add_dependency 'json',        '~> 1.7.5'
+  gem.add_dependency 'json',        '~> 1.8'
   gem.add_development_dependency 'rspec'
 
   gem.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
